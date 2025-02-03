@@ -1,1 +1,19 @@
-﻿
+proxies:
+  - name: "🇯🇵 日本Claw"
+    type: vless
+    server: 47.79.32.153
+    port: 443
+    uuid: fb4b7ccd-0ca4-4ba8-d796-99b339c71269
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: www.lovelive-anime.jp
+    reality-opts:
+      public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+      shortids:
+        - be
+        - 9e44
+        - f16cb5
+        - 6dfeb411
+    client-fingerprint: chrome
